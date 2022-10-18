@@ -119,3 +119,23 @@ body {
   font-weight: 300;
   line-height: 1.6;
 }
+
+.text--dark {
+  color: $gray-dark;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.bg {
+  &-google {
+    background: #96e71c;
+  }
+  &-instagram {
+    background: #d77321;
+  }
+  &-facebook {
+    background: #6121b4;
+  }
+}
