@@ -17,3 +17,27 @@
     margin-top: 40px;
   }
 }
+
+@media screen and (max-width: 1023.98px) {
+  .intro {
+    padding-top: 60px;
+  }
+  .intro-content {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .intro {
+    padding: 25px 0 80px;
+    display: block;
+
+    &-content {
+      margin-bottom: 35px;
+    }
+
+    & > * {
+      width: 100%;
+    }
+  }
+}

@@ -139,3 +139,20 @@ body {
     background: #6121b4;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .button {
+    padding: 10px 15px;
+  }
+
+  .block {
+    margin-bottom: 50px;
+    &-heading {
+      font-size: 35px;
+    }
+
+    &-caption {
+      margin-bottom: 20px;
+    }
+  }
+}
